@@ -20,6 +20,7 @@ This repository contains a minimal React Native scaffold for a mobile Super-App 
 2. Run the Metro server using `npm start`.
 3. Launch the app on Android or iOS using `npm run android` or `npm run ios`.
 4. Launch Storybook using `npm run storybook` to preview components.
+5. Run unit tests with `npm test`.
 
 MoMo API credentials need to be configured inside `app/momo-api/index.js`.
 
