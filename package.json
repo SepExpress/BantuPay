@@ -5,13 +5,16 @@
   "scripts": {
     "start": "react-native start",
     "android": "react-native run-android",
-    "ios": "react-native run-ios"
+    "ios": "react-native run-ios",
+    "test": "jest",
+    "storybook": "start-storybook -p 7007"
   },
   "dependencies": {
     "react": "18.2.0",
     "react-native": "0.73.0",
     "@react-navigation/native": "^6.1.6",
     "@react-navigation/native-stack": "^6.9.12",
-    "axios": "^1.6.0"
+    "axios": "^1.6.0",
+    "@ant-design/react-native": "^5.0.0"
   }
 }
