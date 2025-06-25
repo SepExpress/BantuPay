@@ -16,7 +16,7 @@ This repository contains a minimal React Native scaffold for a mobile Super-App 
 
 ## Getting Started
 
-1. Install dependencies with `npm install`.
+1. Run `./scripts/setup.sh` to install dependencies.
 2. Run the Metro server using `npm start`.
 3. Launch the app on Android or iOS using `npm run android` or `npm run ios`.
 4. Launch Storybook using `npm run storybook` to preview components.
