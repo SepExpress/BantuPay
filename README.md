@@ -12,6 +12,7 @@ This repository contains a minimal React Native scaffold for a mobile Super-App 
 - `package.json` &ndash; React Native dependencies and scripts
 - `src/` &ndash; UI component library and theme provider
 - `tokens/` &ndash; design tokens used across the app
+- `ng-library/` &ndash; Angular Material component library
 - `storybook/` &ndash; Storybook configuration and stories
 
 ## Getting Started
@@ -39,3 +40,7 @@ with Node and npm preinstalled.
 
 Running the project this way lets you avoid local npm issues while still
 testing the React Native application.
+
+## Angular Material Library
+
+A lightweight Angular project is included under `ng-library/`. Run `npm run build` inside that directory to compile reusable fintech components built with Angular Material.
