@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json.schemastore.org/angular-cli",
+  "version": 1,
+  "newProjectRoot": "projects",
+  "projects": {
+    "fintech-ui": {
+      "projectType": "library",
+      "root": "projects/fintech-ui",
+      "sourceRoot": "projects/fintech-ui/src",
+      "prefix": "ft",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "tsConfig": "projects/fintech-ui/tsconfig.lib.json",
+            "project": "projects/fintech-ui/ng-package.json"
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/fintech-ui/src/test.ts",
+            "tsConfig": "projects/fintech-ui/tsconfig.spec.json",
+            "karmaConfig": "projects/fintech-ui/karma.conf.js"
+          }
+        }
+      }
+    }
+  }
+}
